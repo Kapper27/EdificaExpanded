@@ -975,11 +975,13 @@ var tomSelect=function(e,t){return new TomSelect(e,t)}
                             >
                                 <option selected>Select a Node by ID</option>
                                 
-                                    <option value="Graspable & LaunchingObjectsAtDistance">Graspable & LaunchingObjectsAtDistance</option>
+                                    <option value="Object & Graspable & Cutting">Object & Graspable & Cutting</option>
+                                
+                                    <option value="Object">Object</option>
                                 
                                     <option value="Graspable">Graspable</option>
                                 
-                                    <option value="LaunchingObjectsAtDistance">LaunchingObjectsAtDistance</option>
+                                    <option value="Cutting">Cutting</option>
                                 
                             </select>
                         </div>
@@ -1203,8 +1205,8 @@ var tomSelect=function(e,t){return new TomSelect(e,t)}
                   
 
                   // parsing and collecting nodes and edges from the python
-                  nodes = new vis.DataSet([{"color": "#97c2fc", "id": "Graspable \u0026 LaunchingObjectsAtDistance", "label": "Graspable \u0026 LaunchingObjectsAtDistance", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Graspable", "label": "Graspable", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "LaunchingObjectsAtDistance", "label": "LaunchingObjectsAtDistance", "shape": "dot", "size": 10}]);
-                  edges = new vis.DataSet([{"arrows": "to", "from": "Graspable \u0026 LaunchingObjectsAtDistance", "to": "Graspable", "width": 1}, {"arrows": "to", "from": "Graspable \u0026 LaunchingObjectsAtDistance", "to": "LaunchingObjectsAtDistance", "width": 1}]);
+                  nodes = new vis.DataSet([{"color": "#97c2fc", "id": "Object \u0026 Graspable \u0026 Cutting", "label": "Object \u0026 Graspable \u0026 Cutting", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Object", "label": "Object", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Graspable", "label": "Graspable", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Cutting", "label": "Cutting", "shape": "dot", "size": 10}]);
+                  edges = new vis.DataSet([{"arrows": "to", "from": "Object \u0026 Graspable \u0026 Cutting", "to": "Object", "width": 1}, {"arrows": "to", "from": "Object \u0026 Graspable \u0026 Cutting", "to": "Graspable", "width": 1}, {"arrows": "to", "from": "Object \u0026 Graspable \u0026 Cutting", "to": "Cutting", "width": 1}]);
 
                   nodeColors = {};
                   allNodes = nodes.get({ returnType: "Object" });

@@ -18,15 +18,6 @@ T(Stone) - Graspable: 0.8
 T(Stone) - Narrow: 0.7
 
 
-T(Hammer) - Metal : 0.8
-T(Hammer) - Linear : 0.6
-T(Hammer) - Greyish : 0.5
-T(Hammer) - Graspable : 0.9
-T(Hammer) - Defense : 0.7
-T(Hammer) - Hitting : 0.9
-T(Hammer) - ShapingObjects : 0.9
-T(Hammer) - Attack : 0.7
-
 T(Cup) - HighConvexity : 0.9
 T(Cup) - Ceramic : 0.85
 T(Cup) - ToDrinkFrom : 0.9
