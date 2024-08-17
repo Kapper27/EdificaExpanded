@@ -1,0 +1,60 @@
+Properties: p1
+
+Classes:
+class Object:
+    subClass of: owl.Thing 
+
+class Wood:
+    subClass of: owl.Thing
+
+class Branch:
+    subClass of: Object, Wood
+
+class Hammer:
+    subClass of: Object
+
+class SolidMineralAggregate:
+    subClass of: owl.Thing
+
+class Stone:
+    subClass of: SolidMineralAggregate
+
+class Cup:
+    subClass of: Object
+
+class HighConvexity:
+    subClass of: owl.Thing
+
+class Vase:
+    subClass of: Object, HighConvexity
+    
+class Round:
+    subClass of: owl.Thing
+
+class Hairband:
+    subClass of: Object, Round
+
+class Plastic:
+    subClass of: owl.Thing
+
+class RubberBand:
+    subClass of: Object, Plastic
+
+class Shelf:
+    subClass of: Object
+
+class Circular:
+    subClass of: owl.Thing
+
+class Plate:
+    subClass of: Object, Circular
+
+class Metal:
+    subClass of owl.Thing
+
+Properties Domain-Ranges:
+
+General Axioms:
+    Metal disjoint Wood
+
+

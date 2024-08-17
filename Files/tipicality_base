@@ -1,0 +1,66 @@
+T(Branch) - Linear : 0.8
+T(Branch) - Brown : 0.9
+T(Branch) - Graspable : 0.9
+T(Branch) - Decoration : 0.6
+T(Branch) - Hitting : 0.8
+T(Branch) - Defense : 0.7
+T(Branch) - Attack : 0.7
+
+
+T(Stone) - Cutting: 0.7
+T(Stone) - Roundish: 0.7
+T(Stone) - Greyish: 0.7
+T(Stone) - BuildingArrowHeads: 0.7
+T(Stone) - ShapingObjects: 0.8
+T(Stone) - Support: 0.6
+T(Stone) - StrikeAtDistance: 0.8
+T(Stone) - Graspable: 0.8
+T(Stone) - Narrow: 0.7
+
+
+T(Hammer) - Metal : 0.8
+T(Hammer) - Linear : 0.6
+T(Hammer) - Greyish : 0.5
+T(Hammer) - Graspable : 0.9
+T(Hammer) - Defense : 0.7
+T(Hammer) - Hitting : 0.9
+T(Hammer) - ShapingObjects : 0.9
+T(Hammer) - Attack : 0.7
+
+T(Cup) - HighConvexity : 0.9
+T(Cup) - Ceramic : 0.85
+T(Cup) - ToDrinkFrom : 0.9
+T(Cup) - Graspable : 0.8
+T(Cup) - White : 0.7
+T(Cup) - Container : 0.9
+
+T(Vase) - Ceramic : 0.8
+T(Vase) - ToPutPlants : 0.9
+T(Vase) - ToContainObjects : 0.9
+T(Vase) - Graspable : 0.8
+T(Vase) - Support : 0.7
+
+T(Hairband) - Plastic : 0.8
+T(Hairband) - Decoration : 0.9
+T(Hairband) - Graspable : 0.8
+T(Hairband) - Support : 0.7
+
+T(RubberBand) - Propeller : 0.9
+T(RubberBand) - LaunchingObjectsAtDistance : 0.9
+T(RubberBand) - Small : 0.7
+T(RubberBand) - Support : 0.7
+
+T(Stump) - Wood : 0.8
+T(Stump) - Medium : 0.7
+T(Stump) - Linear : 0.8
+T(Stump) - LiftingFromTheGround : 0.7
+T(Stump) - Support : 0.7
+
+T(Shelf) - Wood : 0.8
+T(Shelf) - Rectangular : 0.9
+T(Shelf) - Containment : 0.8
+T(Shelf) - Support : 0.8
+
+T(Plate) - Ceramic : 0.8
+T(Plate) - Containment : 0.8
+T(Plate) - Graspable : 0.8
